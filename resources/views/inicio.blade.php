@@ -29,8 +29,8 @@
                 <td>{{$item->apellido_paterno}}</td>
                 <td>{{$item->apellido_materno}}</td>
                 <td>{{$item->fecha_nacimiento}}</td>
-                <td><i class="fa-solid fa-user-pen btn btn-success"></i></td>
-                <td><i class="fa-solid fa-delete-left btn btn-danger"></i></td>
+                <td><a href="{{route('personas.edit')}}"><i class="fa-solid fa-user-pen btn btn-warning"></i></a></td>
+                <td><a href="{{route('personas.show')}}"><i class="fa-solid fa-delete-left btn btn-danger"></i></a></td>
               </tr>   
               @endforeach
             </tbody>

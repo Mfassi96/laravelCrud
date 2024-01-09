@@ -32,12 +32,13 @@ class PersonasController extends Controller
     public function show(Personas $personas)
     {
         // Obtener solo 1 registro
+        return view('eliminar');
     }
 
     public function edit(Personas $personas)
     {
         // metodo para traer datos para editar y se los coloca en una vista de form
-        return('Vista para editar personas');
+        return view('actualizar');
     }
 
    
@@ -50,5 +51,6 @@ class PersonasController extends Controller
     public function destroy(Personas $personas)
     {
         //Elimmina un registro
+        
     }
 }
