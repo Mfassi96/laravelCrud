@@ -10,7 +10,7 @@
   <div class="card-body">
     <h5 class="card-title">Listado de personas</h5>
     <div class="btn-group my-2">
-        <a href="{{route('personas.create')}}" class="btn btn-primary">Crear personas</a>
+        <a href="{{route('personas.create')}}" class="btn btn-primary">Crear personas <i class="fa-solid fa-user-plus"></i></a>
       </div>
       <p class="card-text">
         <table class="table-responsive table table-sm table-bordered">

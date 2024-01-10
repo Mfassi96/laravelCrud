@@ -9,7 +9,7 @@
       Agregar persona
     </div>
     <div class="card-body">
-      <a href="{{route('personas.index')}}" class="btn btn-secondary">Regresar a la vista</a>
+      <a href="{{route('personas.index')}}" class="btn btn-secondary"><i class="fa-solid fa-circle-chevron-left mx-2"></i>Regresar a la vista</a>
       <p class="card-text">
         <form action="#">
             <label for="nombre" class="form-label">Nombre</label>
@@ -28,7 +28,7 @@
             <input id="fecha_nacimiento" name="fecha_nacimiento" type="date" required class="form-control">
 
             <div class=" btn-gruop">
-                <button class="btn btn-primary">Agregar</button>
+                <button class="btn btn-primary">Agregar <i class="fa-solid fa-user-plus"></i></button>
             </div>
         </form>
         </p>
