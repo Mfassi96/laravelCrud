@@ -14,7 +14,7 @@
         <div class="alert alert-success" role="alert">
           {{$mensaje}} <i class="fa-solid fa-circle-check"></i>
         </div>
-        @endif();
+        @endif()
       </div>
     </div>
     <h5 class="card-title">Listado de personas</h5>

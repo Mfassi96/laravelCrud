@@ -69,9 +69,13 @@ class PersonasController extends Controller
     }
 
    
-    public function destroy(Personas $personas)
+    public function destroy($id)
     {
         //Elimmina un registro
+       $persona=Personas::find($id);
+       $persona->delete();
+       return redirect()->route('personas.index')->with('success','Persona eliminada');
+
         
     }
 }

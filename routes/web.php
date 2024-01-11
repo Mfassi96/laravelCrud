@@ -11,5 +11,4 @@ Route::get('/edit/{id}',[PersonasController::class,'edit'])->name('personas.edit
 Route::put('/update/{id}',[PersonasController::class,'update'])->name('personas.update');
 Route::get('/show/{id}',[PersonasController::class,'show'])->name('personas.show');
 Route::post('/store',[PersonasController::class,'store'])->name('personas.store');
-
-
+Route::delete('/destroy/{id}',[PersonasController::class,'destroy'])->name('personas.destroy');

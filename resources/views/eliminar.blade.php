@@ -37,7 +37,12 @@
                       </tr>
                   </tbody>
               </table>
-              <button class="btn btn-outline-danger btn-block btn-lg">ELIMINAR<i class="fa-solid fa-trash-can mx-2" style="color: #2d4267;"></i></button>
+              <form action="{{route('personas.destroy',$persona->id)}}" method="POST">
+                @csrf
+                @method("DELETE")
+                <button class="btn btn-outline-danger btn-block btn-lg">ELIMINAR<i class="fa-solid fa-trash-can mx-2" style="color: #2d4267;"></i></button>
+              </form>
+              
             </div>
           </div
 
