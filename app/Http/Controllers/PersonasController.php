@@ -37,10 +37,11 @@ class PersonasController extends Controller
     }
 
 
-    public function show(Personas $personas)
+    public function show($id)
     {
         // Obtener solo 1 registro
-        return view('eliminar');
+        $persona=Personas::find($id);
+        return view('eliminar',compact('persona'));
     }
 
     public function edit($id)

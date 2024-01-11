@@ -39,7 +39,7 @@
                 <td>{{$item->apellido_materno}}</td>
                 <td>{{$item->fecha_nacimiento}}</td>
                 <td><a href="{{route('personas.edit',$item->id)}}"><i class="fa-solid fa-user-pen btn btn-warning"></i></a></td>
-                <td><a href="{{route('personas.show')}}"><i class="fa-solid fa-delete-left btn btn-danger"></i></a></td>
+                <td><a href="{{route('personas.show',$item->id)}}"><i class="fa-solid fa-delete-left btn btn-danger"></i></a></td>
               </tr>   
               @endforeach
             </tbody>

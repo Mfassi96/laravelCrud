@@ -29,11 +29,11 @@
                   </thead>
                   <tbody>
                       <tr>
-                          <td scope="row">Item</td>
-                          <td>Item</td>
-                          <td>Item</td>
-                          <td>Item</td>
-                          <td>Item</td>
+                          <td>{{$persona->nombre}}</td>
+                          <td>{{$persona->apellido_paterno}}</td>
+                          <td>{{$persona->apellido_materno}}</td>
+                          <td>{{$persona->fecha_nacimiento}}</td>
+                          <td>{{$persona->created_at}}</td>
                       </tr>
                   </tbody>
               </table>
