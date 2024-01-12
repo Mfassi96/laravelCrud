@@ -11,7 +11,7 @@ class PersonasController extends Controller
     public function index()
     {
         //pagina de inicio
-        $datos=Personas::all();
+        $datos=Personas::paginate(2);
         return view('inicio',compact('datos')); 
     }
 
