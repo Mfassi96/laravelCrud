@@ -5,7 +5,7 @@
 @section('contenido')
 <div class="card">
   <div class="card-header">
-    Crud con Laravel y Mysql
+    Listado de personas
   </div>
   <div class="card-body">
     <div class="row">

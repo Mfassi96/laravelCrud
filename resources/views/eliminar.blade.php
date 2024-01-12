@@ -12,7 +12,7 @@
       <a href="{{route('personas.index')}}" class="btn btn-secondary"><i class="fa-solid fa-circle-chevron-left mx-2"></i>Regresar a la vista</a>
       <p class="card-text">
         <div class="alert alert-danger" role="alert">
-            <h2>¿Estas seguro de eliminar esta persona?😮</h2>
+            <h2>¿Estas seguro de eliminar esta persona?</h2>
             
             <div class="table-responsive">
               <table
